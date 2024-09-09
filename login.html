@@ -211,6 +211,9 @@ input[type=submit]:hover {
 
 
 <script>
+function redirectToHome() {
+window.location.href = 'index.html';
+}
 function validateForm()
 {
     var x=document.forms["loginform"]["username"].value;
@@ -270,6 +273,7 @@ return false;
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="password" placeholder="Password">
         <input type="submit" value="Login" name="login">  <a href="index.html"></a>
+        <input type="submit" value="Go to Home" name="Go to Home" onclick="redirectToHome()">                                                                                               
 
     </form>
       </div>
