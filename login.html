@@ -102,6 +102,25 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+input[type=button] {
+    width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+  color: white;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
 
 /* Social Media Buttons with Unique Backgrounds */
 .fb {
@@ -273,7 +292,7 @@ return false;
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="password" placeholder="Password">
         <input type="submit" value="Login" name="login">  <a href="index.html"></a>
-        <input type="submit" value="Go to Home" name="Go to Home" onclick="redirectToHome()">                                                                                               
+        <input type="button" value="Go to Home" name="Go to Home" onclick="redirectToHome()">                                                                                               
 
     </form>
       </div>
